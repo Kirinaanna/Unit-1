@@ -6,5 +6,5 @@ jobs:
     steps:
       - uses: actions/checout@v4
       - name: run a sckript
-      run: echo "Hello GitHub Actions!" 
+        run: echo "Hello GitHub Actions!" 
            
