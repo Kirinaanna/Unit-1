@@ -6,4 +6,4 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: run a sckript
-        run: echo "Hello GitHub Actions!"
+        run: npm run coverage
